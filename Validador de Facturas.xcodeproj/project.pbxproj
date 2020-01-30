@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432542D523D96F0F005212B5 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432542D423D96F0F005212B5 /* ScannerViewController.swift */; };
+		432542D923DAB529005212B5 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432542D823DAB529005212B5 /* ReportViewController.swift */; };
 		4331F33423D96010000AED17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331F33323D96010000AED17 /* AppDelegate.swift */; };
 		4331F33623D96010000AED17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331F33523D96010000AED17 /* SceneDelegate.swift */; };
 		4331F33823D96010000AED17 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331F33723D96010000AED17 /* FirstViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		432542D423D96F0F005212B5 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		432542D823DAB529005212B5 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		4331F33023D96010000AED17 /* Validador de Facturas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Validador de Facturas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4331F33323D96010000AED17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4331F33523D96010000AED17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		432542DA23DE8BAF005212B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4331F32723D96010000AED17 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +114,7 @@
 		4331F33223D96010000AED17 /* Validador de Facturas */ = {
 			isa = PBXGroup;
 			children = (
+				432542DA23DE8BAF005212B5 /* Models */,
 				4331F33323D96010000AED17 /* AppDelegate.swift */,
 				4331F33523D96010000AED17 /* SceneDelegate.swift */,
 				4331F33723D96010000AED17 /* FirstViewController.swift */,
@@ -112,6 +124,8 @@
 				4331F34323D96011000AED17 /* LaunchScreen.storyboard */,
 				4331F34623D96011000AED17 /* Info.plist */,
 				4331F33E23D96010000AED17 /* Validador_de_Facturas.xcdatamodeld */,
+				432542D423D96F0F005212B5 /* ScannerViewController.swift */,
+				432542D823DAB529005212B5 /* ReportViewController.swift */,
 			);
 			path = "Validador de Facturas";
 			sourceTree = "<group>";
@@ -266,10 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4331F33A23D96010000AED17 /* SecondViewController.swift in Sources */,
+				432542D523D96F0F005212B5 /* ScannerViewController.swift in Sources */,
 				4331F33823D96010000AED17 /* FirstViewController.swift in Sources */,
 				4331F33423D96010000AED17 /* AppDelegate.swift in Sources */,
 				4331F34023D96010000AED17 /* Validador_de_Facturas.xcdatamodeld in Sources */,
 				4331F33623D96010000AED17 /* SceneDelegate.swift in Sources */,
+				432542D923DAB529005212B5 /* ReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4SU3J8375;
 				INFOPLIST_FILE = "Validador de Facturas/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4SU3J8375;
 				INFOPLIST_FILE = "Validador de Facturas/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
